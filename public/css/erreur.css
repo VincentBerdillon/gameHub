@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    width: 150%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+#name{
+    font-size: 50px;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.return{
+    font-size: 25px;
+    text-align: center;
+}
+
+.image{
+    width: 454px;
+    height: 370px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 45% 55% 67% 33% / 37% 36% 64% 63%;
+    overflow: hidden;
+}

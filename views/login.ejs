@@ -1,0 +1,43 @@
+<%- include("partials/header")%>
+
+<main>
+    <h3>Identification</h3>
+    <% if (typeof nope !=="undefined" ) { %>
+            <p class="error">Aïe, ça n'a pas marché, on réessaie ?</p>
+        <% } %>
+    <%if (!locals.userName){%>
+    <form action="" class="login-form" method="POST">
+        
+            <div class="login-form__line">
+                <label for="user-name">Nom d'utilisateur</label>
+                <input type="text" name="username" id="user-name" placeholder="ex: root">
+    
+    
+            </div>
+    
+    
+            <div class="login-form__line">
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password" placeholder="ex: admin123">
+    
+    
+            </div>
+    
+    
+            <div class="login-form__line login-form__line--buton">
+                <button type="submit">Connexion</button>
+            </div>
+    
+    
+        </form>
+        <%}%>
+    
+    
+    
+    
+    </main>
+
+
+
+
+<%- include("partials/footer")%>

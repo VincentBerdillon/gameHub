@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+}
+
+.pixel {
+    border: 1px solid black;
+    
+}
+
+.palette {
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+.palette__color {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.pixel--gray, .palette__color--gray {
+    background-color: gray;
+}
+
+.pixel--black, .palette__color--black {
+    background-color: #2d3236;
+}
+
+.pixel--red, .palette__color--red {
+    background-color: red;
+}
+
+.pixel--yellow, .palette__color--yellow {
+    background-color: yellow;
+}
+
+.pixel--green, .palette__color--green {
+    background-color: green;
+}
+
+.pixel--blue, .palette__color--blue{
+    background-color: blue;
+}
